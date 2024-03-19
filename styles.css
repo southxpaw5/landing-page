@@ -5,29 +5,22 @@
     padding:0;
 }
 
-body {
-    background-color: black;
-    width: 1440px;
-    margin: auto;
-}
+
 
 .header {
     background-color: #1F2937;
     display: flex;
-    
+    padding: 0 200px;
     flex-direction: column;
     
 }
 
-.header, .section, .inspiration, .contact, .footer {
-    padding: 0 200px;
-    height: 500px;
-}
 
 .header .container {
     display: flex;
     justify-content: space-between;
     padding: 16px 0;
+
 
 }
 
@@ -128,4 +121,68 @@ ul {
 
 img { 
     border-radius: 5px;
+}
+
+.inspiration {
+    background-color: #e5e7eb;
+    padding: 0 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 600;
+    align-self:flex-end
+}
+
+.contact {
+   padding: 50px 90px;
+}
+
+.contact-container {
+    display: flex;
+    background-color: #3883f6;
+    padding: 50px 150px;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.contact-info .call {
+    font-size: 24px;
+    font-weight: 700;
+    color: white
+}
+
+.sign {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 1px;
+    border-radius: 5px;
+    margin-top: 12px;
+    width: 150px;
+    text-align: center;
+    border: white solid 2px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
